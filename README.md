@@ -6,9 +6,9 @@
         3.	头文件配置：inc文件夹内文件放入\ArcFaceDemo\include\inc文件夹内
         4.	SDK库配置：
             x64版本：
-                将libarcsoft_face_engine.lib放至\ArcFaceDemo\lib64\FreeSdk文件夹下
+                将libarcsoft_face_engine.lib放至\ArcFaceDemo\lib64\FreeSdk文件夹下,如果没有对应的文件夹，请先创建
             x86版本：
-                将libarcsoft_face_engine.lib放至\ArcFaceDemo\lib32\FreeSdk文件夹下
+                将libarcsoft_face_engine.lib放至\ArcFaceDemo\lib32\FreeSdk文件夹下,如果没有对应的文件夹，请先创建
         5.	在运行代码的时候将对应版本SDK和OpenCV的dll库放至项目根目录下，以免运行时找不到对应的dll库
         6.	将官网申请的APPID及SDKKEY填写至ArcFaceEngine.cpp文件中，注意平台和版本对应
         7.	在Debug或者Release中选择配置管理器，选择对应的平台
@@ -48,6 +48,6 @@
 		(2)请确认图片的宽度是否为4的倍数
     
     8.编译错误MSB8031
-        请下载安装vc_mbcsmfc.exe (https://www.microsoft.com/ en-us/download/details.aspx?id=40770)。
+        请下载安装vc_mbcsmfc.exe (https://www.microsoft.com/en-us/download/details.aspx?id=40770)。
     
     更多常见问题请访问 https://ai.arcsoft.com.cn/manual/faqs.html。
