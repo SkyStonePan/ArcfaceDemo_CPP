@@ -3,7 +3,7 @@
     环境配置：
         1.	安装VS2013环境安装包(vcredist_x86_vs2013.exe)
         2.	从官网(http://www.arcsoft.com.cn/ai/arcface.html)申请sdk，下载对应的sdk版本(x86或x64)并解压
-        3.	头文件配置：inc文件夹内文件放入\ArcFaceDemo\include\inc文件夹内
+        3.	头文件配置：头文件放入\ArcFaceDemo\include\inc文件夹内
         4.	SDK库配置：
             x64版本：
                 将libarcsoft_face_engine.lib放至\ArcFaceDemo\lib64\FreeSdk文件夹下,如果没有对应的文件夹，请先创建
